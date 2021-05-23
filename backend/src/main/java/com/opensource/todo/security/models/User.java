@@ -1,4 +1,4 @@
-package com.opensource.todo.security;
+package com.opensource.todo.security.models;
 
 import lombok.AccessLevel;
 import lombok.Data;

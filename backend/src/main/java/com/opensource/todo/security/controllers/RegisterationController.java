@@ -1,10 +1,11 @@
-package com.opensource.todo.security;
+package com.opensource.todo.security.controllers;
 
+import com.opensource.todo.security.models.UserDto;
+import com.opensource.todo.security.repositories.UserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.stereotype.Repository;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;

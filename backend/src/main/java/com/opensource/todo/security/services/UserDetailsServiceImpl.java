@@ -1,5 +1,7 @@
-package com.opensource.todo.security;
+package com.opensource.todo.security.services;
 
+import com.opensource.todo.security.repositories.UserRepository;
+import com.opensource.todo.security.models.User;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

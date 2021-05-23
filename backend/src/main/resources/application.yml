@@ -20,3 +20,7 @@ logging:
   file:
     path: './logs'
     name: ${logging.file.path}/todo.log
+app:
+  jwt:
+    expiration-period: 14
+    key: lskdkajshgdfiuaysdgfiuaysdgfiuasdgyfiuasdgyfiausdyf
