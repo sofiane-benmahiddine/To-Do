@@ -19,7 +19,7 @@ import java.util.Collections;
 @RequiredArgsConstructor
 public class User implements UserDetails {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private final String username;
     private final String password;

@@ -5,11 +5,7 @@ spring:
     password: spintechs
   jpa:
     properties:
-      hibernate:
-        jdbc:
-          lob:
-            non_contextual_creation: true
-        dialect: org.hibernate.dialect.PostgreSQLDialect
+      dialect: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
       ddl-auto: update
   application:
@@ -23,4 +19,4 @@ logging:
 app:
   jwt:
     expiration-period: 14
-    key: lskdkajshgdfiuaysdgfiuaysdgfiuasdgyfiuasdgyfiausdyf
+    key: Yp3s6v9y$B&E)H@McQfTjWnZq4t7w!z%

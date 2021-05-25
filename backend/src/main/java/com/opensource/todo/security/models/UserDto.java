@@ -1,6 +1,5 @@
 package com.opensource.todo.security.models;
 
-import com.opensource.todo.security.models.User;
 import lombok.Data;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
