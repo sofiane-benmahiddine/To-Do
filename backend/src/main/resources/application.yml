@@ -18,5 +18,8 @@ logging:
     name: ${logging.file.path}/todo.log
 app:
   jwt:
-    expiration-period: 14
-    key: Yp3s6v9y$B&E)H@McQfTjWnZq4t7w!z%
+    jwtExpiration: 86400000
+    jwtSecret: bezKoderSecretKeybezKoderSecretKeybezKoderSecretKeybezKoderSecretKeybezKoderSecretKeybezKoderSecretKeybezKoderSecretKeybezKoderSecretKeybezKoderSecretKeybezKoderSecretKey
+server:
+  error:
+    include-stacktrace: on_trace_param
