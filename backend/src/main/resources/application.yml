@@ -3,11 +3,12 @@ spring:
     url: jdbc:postgresql://localhost:5432/todo
     username: postgres
     password: spintechs
+    initialization-mode: always
   jpa:
     properties:
       dialect: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
-      ddl-auto: update
+      ddl-auto: create
   application:
     name: todo-app
 logging:
@@ -23,3 +24,7 @@ app:
 server:
   error:
     include-stacktrace: on_trace_param
+  port: 8081
+javers:
+  newObjectSnapshot: true
+

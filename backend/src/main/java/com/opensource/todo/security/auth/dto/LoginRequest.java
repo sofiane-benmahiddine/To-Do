@@ -1,4 +1,4 @@
-package com.opensource.todo.user.payloads.request;
+package com.opensource.todo.security.auth.dto;
 
 import lombok.Getter;
 import lombok.Setter;
